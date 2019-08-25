@@ -3,7 +3,7 @@ from machine import Pin
 import socket
 a = Pin(15,Pin.OUT)
 s=socket.socket()
-s.connect(('118.107.12.46',8282))
+s.connect(('TEST IP',8282))
 print('connection is successful')
 s.send('wicos')
 while True:
